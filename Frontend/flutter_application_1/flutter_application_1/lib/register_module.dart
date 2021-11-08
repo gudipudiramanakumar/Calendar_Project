@@ -44,6 +44,7 @@ class _RegisterModuleState extends State<RegisterModule> {
           decoration: const InputDecoration(
             hintText: 'Choose Password',
           ),
+          obscureText: true,
           validator: authService.validatePassword,
         ),
         TextFormField(
@@ -52,6 +53,7 @@ class _RegisterModuleState extends State<RegisterModule> {
           decoration: const InputDecoration(
             hintText: 'Confirm Password',
           ),
+          obscureText: true,
           validator: comparePasswords,
         ),
         Padding(

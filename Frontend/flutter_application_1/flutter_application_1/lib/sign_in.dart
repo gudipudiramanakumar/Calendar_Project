@@ -35,6 +35,7 @@ class _SignInModuleState extends State<SignInModule> {
           decoration: const InputDecoration(
             hintText: 'Password',
           ),
+          obscureText: true,
         ),
         Padding(
           padding: const EdgeInsets.all(20),
